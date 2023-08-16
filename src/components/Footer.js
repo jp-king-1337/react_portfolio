@@ -15,6 +15,9 @@ export default function Footer() {
                 <li>
                     <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">LinkedIn</a>
                 </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/22401476/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">Stack Overflow</a>
+                </li>
             </ul>
             <p className="footer-copyright">&copy; {startYear} {currentYear > startYear ? `- ${currentYear}` : ""} Developed and Designed by J.P. King</p>
         </footer>
