@@ -24,6 +24,14 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Landing />} />
 
+                <Route path="/about" element={<About />} />
+
+                <Route path="/portfolio" element={<Portfolio />} />
+
+                <Route path="/contact" element={<Contact />} />
+
+                <Route path="/resume" element={<Resume />} />
+
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </>
