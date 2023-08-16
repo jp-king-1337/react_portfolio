@@ -1,6 +1,8 @@
-import { NavLink } from "react-router-dom";
-
 export default function Footer() {
+    const date = new Date();
+    const currentYear = date.getFullYear();
+    const startYear = 2023;
+
     return (
         <footer className="row justify-between align-center">
             <ul className="row justify-between align-center footer-links">
@@ -14,7 +16,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">LinkedIn</a>
                 </li>
             </ul>
-            <p className="footer-copyright">© 2023 J.P. King</p>
+            <p className="footer-copyright">&copy; {startYear} {currentYear > startYear ? `- ${currentYear}` : ""} Developed and Designed by J.P. King</p>
         </footer>
     );
 }
