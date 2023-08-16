@@ -82,3 +82,9 @@ header nav a:not(:last-child) {
 header nav a.active {
     text-decoration: underline;
 }
+
+/* About Page Styles */
+.about-paragraph {
+    padding: 0px 1em;
+    min-width: 200px;
+}
