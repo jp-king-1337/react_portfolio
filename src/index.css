@@ -180,6 +180,10 @@ footer {
     border-radius: 3px;
 }
 
+.form-group textarea {
+    resize: vertical;
+}
+
 button[type="submit"] {
     background-color: #301934;
     color: white;
