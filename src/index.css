@@ -152,6 +152,8 @@ footer {
 
 /* Contact Page Styles */
 .contact-form {
+    align-items: center;
+    width: 400px;
     background: violet;
     margin: 0 auto;
     padding: 20px;
@@ -167,4 +169,25 @@ footer {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #301934;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #51284f;
 }
