@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Navigation from "./Navigation";
 
 export default function Header() {
 
@@ -8,13 +9,7 @@ export default function Header() {
                 <h2>J.P. King</h2>
             </NavLink>
 
-            <nav className="row">
-                <NavLink to="/">About Me</NavLink>
-                {/* <NavLink to="/about">About Me</NavLink> */}
-                <NavLink to="/contact">Contact Me</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
-                <NavLink to="/resume">Resume</NavLink>
-            </nav>
+            <Navigation />
         </header>
     )
 }
