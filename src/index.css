@@ -152,10 +152,10 @@ footer {
 
 /* Contact Page Styles */
 .contact-form {
-    align-items: center;
+    text-align: center;
     width: 400px;
     background: violet;
-    margin: 0 auto;
+    margin: 10px auto 0;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -169,11 +169,12 @@ footer {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    text-align: left;
 }
 
 .form-group input,
 .form-group textarea {
-    width: 300px;
+    width: 380px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -183,8 +184,9 @@ button[type="submit"] {
     background-color: #301934;
     color: white;
     border: none;
-    padding: 10px 20px;
     border-radius: 3px;
+    padding: 10px 20px;
+    font-size: .98rem;
     cursor: pointer;
 }
 
