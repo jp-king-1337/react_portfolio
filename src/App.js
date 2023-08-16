@@ -3,12 +3,12 @@ import { Route, Routes } from "react-router-dom";
 // Components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Loading from "./components/Loading";
+// import Loading from "./components/Loading";
 
 // Pages
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Landing from "./pages/Landing";
+// import Landing from "./pages/Landing";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -20,12 +20,13 @@ export default function App() {
         <>
             <Header />
 
+            {/* Need state before I can use this */}
             {/* {state.loading && <Loading />} */}
 
             <Routes>
-                <Route path="/" element={<Landing />} />
+                <Route path="/" element={<About />} />
 
-                <Route path="/about" element={<About />} />
+                {/* <Route path="/about" element={<About />} /> */}
 
                 <Route path="/portfolio" element={<Portfolio />} />
 
