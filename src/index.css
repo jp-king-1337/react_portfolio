@@ -22,7 +22,10 @@ code {
 .app-container {
     display: flex;
     flex-direction: column;
-    min-height: 78.15vh;
+    /* Scroll bar, but maybe that's okay */
+    min-height: 100vh;
+    /* Right on the bottom, no scroll */
+    /* min-height: 78.15vh; */
 }
 
 /* Global Classes */
