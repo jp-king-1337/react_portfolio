@@ -5,7 +5,7 @@ export default function Header(props) {
 
     return (
         <header className="row justify-between align-center">
-            <h3>J.P. King</h3>
+            <h2>J.P. King</h2>
 
             <nav className="row">
                 <NavLink to="/">Home</NavLink>
