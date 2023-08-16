@@ -1,5 +1,5 @@
 export default function Landing() {
     return (
-        <h1>This is a landing page.</h1>
+        <h1 className="text-center">This is a landing page.</h1>
     )
 }

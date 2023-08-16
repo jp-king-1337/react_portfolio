@@ -1,5 +1,5 @@
 export default function Resume() {
     return (
-        <h1>This is a Resume page.</h1>
+        <h1 className="text-center">This is a Resume page.</h1>
     )
 }
