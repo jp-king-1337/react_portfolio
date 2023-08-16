@@ -24,6 +24,8 @@ export default function Contact() {
         }
     };
 
+    const isSubmitDisabled = Object.values(errorMessage).some(error => error !== "");
+
     return (
         <>
             <div className="app-container">
@@ -63,7 +65,10 @@ export default function Contact() {
                         <div className="error-message">{errorMessage.name}</div>
                     </div>
                     <button
-                        type="submit">Submit</button>
+                        type="submit"
+                        disabled={isSubmitDisabled}>
+                        Submit
+                    </button>
                 </form>
             </div>
         </>
