@@ -1,20 +1,19 @@
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
-
     return (
         <footer className="row justify-between align-center">
-            <NavLink to="/">
-                <h2>J.P. King</h2>
-            </NavLink>
-
-            <nav className="row">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About Me</NavLink>
-                <NavLink to="/contact">Contact Me</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
-                <NavLink to="/resume">Resume</NavLink>
-            </nav>
+            <ul className="row">
+                <li>
+                    <a href="mailto:jp.king.1337@gmail.com" className="contact_links">Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+            </ul>
         </footer>
-    )
+    );
 }
