@@ -125,7 +125,17 @@ footer {
 }
 
 /* About Page Styles */
-.about-paragraph {
+.about-paragraphs {
     padding: 0px 1em;
-    min-width: 200px;
+    min-width: 60%;
+}
+
+.about-image {
+    max-width: 40%;
+    text-align: right;
+}
+
+#headshot {
+    max-width: 100%;
+    height: auto;
 }
