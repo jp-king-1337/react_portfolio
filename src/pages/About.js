@@ -4,7 +4,7 @@ export default function About() {
             <div className="app-container">
                 <h1 className="text-center">Welcome!</h1>
 
-                <img src="public/assets/images/headshot.JPG" alt="J.P. King standing in front of a waterfall"/>
+                <img src="/assets/images/headshot.JPG" alt="J.P. King standing in front of a waterfall"/>
 
                 <p className="about-paragraph">
                     I'm J.P. King, and I'm currently transitioning from my the world of restaurants to a career in web development. Originally from Lancaster County, Pennsylvania, I studied German and theatre technology at Lycoming College. After graduating in 2019, I spent a few years working in bustling kitchens before deciding that I need more challenge in my life. I've been interested in coding for years, but never truly dug into it. Looking for a change, I dedicated myself to a coding bootcamp.
