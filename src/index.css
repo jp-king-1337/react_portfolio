@@ -135,22 +135,17 @@ footer {
 
 .about-paragraphs {
     flex: 1;
-    padding: 0px 1em;
-    min-width: 60%;
-    /* margin-right: 50px; */
+    min-width: 70%;
 }
 
 .headshot-wrapper {
     flex: 1;
-    /* max-width: 40%; */
-    text-align: right;
-    margin: 10px;
+    text-align: center;
     padding: 3%;
 }
 
 #headshot {
     max-width: 200px;
     height: auto;
-    /* align-self: center; */
     border-radius: 50%;
 }
