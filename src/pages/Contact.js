@@ -38,7 +38,8 @@ export default function Contact() {
                             name="name"
                             placeholder="What is your name?"
                             onBlur={handleBlur}
-                            />
+                        />
+                        <div className="error-message">{errorMessage.name}</div>
                     </div>
                     <div className="form-group">
                         <label htmlFor="email">Email</label>
@@ -48,7 +49,8 @@ export default function Contact() {
                             name="email"
                             placeholder="What is your email?"
                             onBlur={handleBlur}
-                            />
+                        />
+                        <div className="error-message">{errorMessage.name}</div>
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
@@ -57,7 +59,8 @@ export default function Contact() {
                             name="message"
                             placeholder="How can I help you?"
                             onBlur={handleBlur}
-                            />
+                        />
+                        <div className="error-message">{errorMessage.name}</div>
                     </div>
                     <button
                         type="submit">Submit</button>
