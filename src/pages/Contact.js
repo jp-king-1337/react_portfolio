@@ -13,6 +13,21 @@ export default function Contact() {
                     <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">LinkedIn</a>
                 </li>
             </ul>
+            <form className="contact-form">
+                <div className="form-group">
+                    <label htmlFor="name">Name</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea id="message" name="message" />
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </>
     );
 }
