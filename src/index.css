@@ -151,3 +151,10 @@ footer {
 }
 
 /* Contact Page Styles */
+.contact-form {
+    background: violet;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
