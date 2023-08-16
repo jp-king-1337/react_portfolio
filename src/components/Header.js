@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 export default function Header(props) {
 
     return (
-        <header>
+        <header className="row justify-between align-center">
             <h3>J.P. King</h3>
 
-            <nav>
+            <nav className="row">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About Me</NavLink>
                 <NavLink to="/contact">Contact Me</NavLink>
