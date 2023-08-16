@@ -9,8 +9,8 @@ export default function Header() {
             </NavLink>
 
             <nav className="row">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About Me</NavLink>
+                <NavLink to="/">About Me</NavLink>
+                {/* <NavLink to="/about">About Me</NavLink> */}
                 <NavLink to="/contact">Contact Me</NavLink>
                 <NavLink to="/portfolio">Portfolio</NavLink>
                 <NavLink to="/resume">Resume</NavLink>

@@ -23,9 +23,9 @@ export default function App() {
             {/* {state.loading && <Loading />} */}
 
             <Routes>
-                <Route path="/" element={<Landing />} />
+                <Route path="/" element={<About />} />
 
-                <Route path="/about" element={<About />} />
+                {/* <Route path="/about" element={<About />} /> */}
 
                 <Route path="/portfolio" element={<Portfolio />} />
 
