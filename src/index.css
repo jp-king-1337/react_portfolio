@@ -26,6 +26,7 @@ code {
     min-height: 100vh;
     /* Right on the bottom, no scroll */
     /* min-height: 78.15vh; */
+    padding: 10px 5%;
 }
 
 /* Global Classes */
@@ -136,16 +137,20 @@ footer {
     flex: 1;
     padding: 0px 1em;
     min-width: 60%;
+    /* margin-right: 50px; */
 }
 
-.about-image {
+.headshot-wrapper {
     flex: 1;
-    max-width: 40%;
+    /* max-width: 40%; */
     text-align: right;
+    margin: 10px;
+    padding: 3%;
 }
 
 #headshot {
     max-width: 200px;
     height: auto;
-    align-self: center;
+    /* align-self: center; */
+    border-radius: 50%;
 }
