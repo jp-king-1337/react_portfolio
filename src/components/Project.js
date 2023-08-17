@@ -2,7 +2,9 @@ export default function Project({ title, imageSource, description, deployedLink,
     return (
         <div className="project-card">
             <h2 className="project-title">{title}</h2>
-            <img className="project-image" src={imageSource} alt={title} />
+            <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+                <img className="project-image" src={imageSource} alt={title} />
+            </a>
             <p className="project-description">{description}</p>
             <div className="project-links">
                 <a href={deployedLink} target="_blank" rel="noopener noreferrer">View Site</a>
