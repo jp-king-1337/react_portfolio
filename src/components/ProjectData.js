@@ -4,5 +4,5 @@ export const projectData = [
         imageSource: "",
         deployedLink: "",
         githubLink: ""
-    },
+    }
 ]

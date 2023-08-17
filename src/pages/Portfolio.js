@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import ProjectData from "../components/ProjectData";
+import { projectData } from "../components/ProjectData";
 
 export default function Portfolio() {
     return (
@@ -7,7 +7,12 @@ export default function Portfolio() {
             <div className="app-container">
                 <h1 className="text-center">This is a portfolio page.</h1>
                 <div className="project-list">
-                    {/* ??????? */}
+                    {projectData.map(project => {
+                        title={project.title},
+                        imageSource={project.imageSource},
+                        deployedLink={project.deployedLink},
+                        githubLink={project.githubLink}
+                    })}
                 </div>
             </div>
         </>
