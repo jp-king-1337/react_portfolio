@@ -206,6 +206,12 @@ button[type="submit"]:hover {
 }
 
 /* Portfolio Page Styles */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .project-card {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -214,6 +220,9 @@ button[type="submit"]:hover {
     padding: 20px;
     margin: 20px;
     text-align: center;
+    flex: 1;
+    max-width: calc(33.33% - 40px);
+    box-sizing: border-box;
 }
 
 .project-title {
