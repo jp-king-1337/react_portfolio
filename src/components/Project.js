@@ -5,8 +5,8 @@ export default function Project({ title, imageSource, description, deployedLink,
             <img className="project-image" src={imageSource} alt={title} />
             <p className="project-description">{description}</p>
             <div className="project-links">
-                <a href={deployedLink} target="_blank" rel="noopener noreferrer">Deployed Application</a>
-                <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a href={deployedLink} target="_blank" rel="noopener noreferrer">View Site</a>
+                <a href={githubLink} target="_blank" rel="noopener noreferrer">View GitHub</a>
             </div>
         </div>
     );

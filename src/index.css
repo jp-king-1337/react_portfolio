@@ -210,6 +210,8 @@ button[type="submit"]:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* columns: 2;
+    grid-auto-rows: auto; */
 }
 
 .project-card {
@@ -222,6 +224,7 @@ button[type="submit"]:hover {
     text-align: center;
     flex: 1;
     max-width: calc(33.33% - 40px);
+    min-width: 300px;
     box-sizing: border-box;
 }
 
@@ -230,7 +233,7 @@ button[type="submit"]:hover {
 }
 
 .project-image {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     margin: 5px 0;
 }
