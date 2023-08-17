@@ -212,11 +212,32 @@ button[type="submit"]:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px #0000001a;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.project-title {
+    margin-top: 0;
 }
 
 .project-image {
     max-width: 300px;
     height: auto;
+    margin: 5px 0;
+}
+
+.project-description {
     margin: 10px 0;
+}
+
+.project-links a {
+    display: inline-block;
+    /* justify-content: space-between; */
+    margin-right: 10px;
+    color: #301934;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
 }
