@@ -1,4 +1,4 @@
-export default projects = [
+export const projectData = [
     {
         title: "Project 1",
         imageSource: "",

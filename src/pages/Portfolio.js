@@ -1,6 +1,5 @@
 import Project from "../components/Project";
-
-
+import ProjectData from "../components/ProjectData";
 
 export default function Portfolio() {
     return (
