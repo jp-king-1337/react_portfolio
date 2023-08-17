@@ -1,6 +1,36 @@
 export const projectData = [
     {
-        title: "Project 1",
+        title: "Project ",
+        imageSource: "",
+        deployedLink: "",
+        githubLink: ""
+    },
+    {
+        title: "Project ",
+        imageSource: "",
+        deployedLink: "",
+        githubLink: ""
+    },
+    {
+        title: "Project ",
+        imageSource: "",
+        deployedLink: "",
+        githubLink: ""
+    },
+    {
+        title: "Project ",
+        imageSource: "",
+        deployedLink: "",
+        githubLink: ""
+    },
+    {
+        title: "Project ",
+        imageSource: "",
+        deployedLink: "",
+        githubLink: ""
+    },
+    {
+        title: "Project ",
         imageSource: "",
         deployedLink: "",
         githubLink: ""
