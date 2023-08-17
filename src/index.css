@@ -206,3 +206,17 @@ button[type="submit"]:hover {
 }
 
 /* Portfolio Page Styles */
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a;
+    padding: 20px;
+    margin: 10px;
+}
+
+.project-image {
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+}
