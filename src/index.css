@@ -1,3 +1,12 @@
+/* https://coolors.co/d5dfe5-c9b1bd-b49594-7f9172-567568 */
+:root {
+    --aliceBlue: #d5dfe5;
+    --thistle: #c9b1bd;
+    --rosyBrown: #b49594;
+    --resedaGreen: #7f9172;
+    --hookersGreen: #567568;
+}
+
 html,
 body,
 #root {
