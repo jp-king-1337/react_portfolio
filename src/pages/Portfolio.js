@@ -11,6 +11,7 @@ export default function Portfolio() {
                         <Project
                             title={project.title}
                             imageSource={project.imageSource}
+                            description={project.description}
                             deployedLink={project.deployedLink}
                             githubLink={project.githubLink}
                         />
