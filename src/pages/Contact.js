@@ -9,6 +9,11 @@ export default function Contact() {
 
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
+    const isValidEmail = (email) => {
+        const emailPattern = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:com|org|net|gov|edu|mil)\b$/;
+        return emailPattern.test(email);
+    };
+
     const handleBlur = (e) => {
         const fieldName = e.target.name;
         const fieldValue = e.target.value;
@@ -17,6 +22,11 @@ export default function Contact() {
             setErrorMessage((prevErrors) => ({
                 ...prevErrors,
                 [fieldName]: "This field is required."
+            }));
+        } else if (fieldName === "email" && !isValidEmail(fieldValue)) {
+            setErrorMessage((prevErrors) => ({
+                ...prevErrors,
+                [fieldName]: "Invalid email address. Please ensure that your email is from one of the following top level domains: .com, .org, .net, .gov, .edu, .mil"
             }));
         } else {
             setErrorMessage((prevErrors) => ({
