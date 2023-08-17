@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <>
             <div className="app-container">
-                <h1 className="text-center">This is a portfolio page.</h1>
+                <h2 className="text-center">Crafted With Passion: A Collection of My Work</h2>
                 <div className="project-list">
                     {projectData.map((project, index) => (
                         <Project
