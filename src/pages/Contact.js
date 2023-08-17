@@ -47,6 +47,11 @@ export default function Contact() {
                         email: "",
                         message: ""
                     });
+
+                    setTimeout(() => {
+                        e.target.reset();
+                        setIsFormSubmitted(false);
+                    }, 3000);
                 } else {
                     console.error("Form submission failed");
                 }
@@ -60,51 +65,49 @@ export default function Contact() {
         <div className="app-container">
             <h2 className="text-center">Contact Me</h2>
 
-            {isFormSubmitted ? (
-                <div className="success-message">
-                    Thank you for reaching out! I'll contact you soon!
+            <form className="contact-form" onSubmit={handleSubmit}>
+                {isFormSubmitted && (
+                    <div className="success-message">
+                        Thank you for reaching out! I'll contact you soon!
+                    </div>)}
+                <div className="form-group">
+                    <label htmlFor="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="What is your name?"
+                        onBlur={handleBlur}
+                    />
+                    <div className="error-message">{errorMessage.name}</div>
                 </div>
-            ) : (
-                <form className="contact-form" onSubmit={handleSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="name">Name</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="What is your name?"
-                            onBlur={handleBlur}
-                        />
-                        <div className="error-message">{errorMessage.name}</div>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="What is your email?"
-                            onBlur={handleBlur}
-                        />
-                        <div className="error-message">{errorMessage.email}</div>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="message">Message</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder="How can I help you?"
-                            onBlur={handleBlur}
-                        />
-                        <div className="error-message">{errorMessage.message}</div>
-                    </div>
-                    <button
-                        type="submit"
-                        disabled={isSubmitDisabled}>
-                        Submit
-                    </button>
-                </form>
-            )}
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="What is your email?"
+                        onBlur={handleBlur}
+                    />
+                    <div className="error-message">{errorMessage.email}</div>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="How can I help you?"
+                        onBlur={handleBlur}
+                    />
+                    <div className="error-message">{errorMessage.message}</div>
+                </div>
+                <button
+                    type="submit"
+                    disabled={isSubmitDisabled}>
+                    Submit
+                </button>
+            </form>
         </div>
     );
 }
