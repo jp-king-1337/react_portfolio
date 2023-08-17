@@ -31,7 +31,11 @@ export default function Contact() {
             <div className="app-container">
                 <h2 className="text-center">Contact Me</h2>
 
-                <form className="contact-form">
+                <form className="contact-form" action="https://api.web3forms.com/submit" method="POST" id="form">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
                         <input
@@ -52,7 +56,7 @@ export default function Contact() {
                             placeholder="What is your email?"
                             onBlur={handleBlur}
                         />
-                        <div className="error-message">{errorMessage.name}</div>
+                        <div className="error-message">{errorMessage.email}</div>
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
@@ -62,7 +66,7 @@ export default function Contact() {
                             placeholder="How can I help you?"
                             onBlur={handleBlur}
                         />
-                        <div className="error-message">{errorMessage.name}</div>
+                        <div className="error-message">{errorMessage.message}</div>
                     </div>
                     <button
                         type="submit"
