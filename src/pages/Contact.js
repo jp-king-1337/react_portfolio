@@ -32,7 +32,7 @@ export default function Contact() {
                 <h2 className="text-center">Contact Me</h2>
 
                 <form className="contact-form" action="https://api.web3forms.com/submit" method="POST" id="form">
-                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                    <input type="hidden" name="access_key" value="95bb745b-ba15-48d1-9079-3141c573b06c" />
                     <input type="hidden" name="subject" value="New Submission from Web3Forms" />
                     <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                     <input type="checkbox" name="botcheck" id="" style="display: none;" />
