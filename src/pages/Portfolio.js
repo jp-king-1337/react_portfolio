@@ -10,10 +10,10 @@ export default function Portfolio() {
                     {projectData.map(project => (
                         <Project
                             title={project.title}
-                            imageSource = { project.imageSource }
-                            deployedLink = { project.deployedLink }
-                            githubLink = { project.githubLink }
-                            />
+                            imageSource={project.imageSource}
+                            deployedLink={project.deployedLink}
+                            githubLink={project.githubLink}
+                        />
                     ))}
                 </div>
             </div>
