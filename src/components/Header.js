@@ -5,7 +5,7 @@ export default function Header() {
 
     return (
         <header className="row justify-between align-center">
-            <NavLink to="/">
+            <NavLink id="nameLink" to="/">
                 <h2>J.P. King</h2>
             </NavLink>
 
