@@ -9,19 +9,19 @@ export const projectData = [
         title: "WeatherFlix",
         imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
         deployedLink: "https://thomasszentirmay.github.io/weather-flix-project/",
-        githubLink: ""
+        githubLink: "https://github.com/ThomasSzentirmay/weather-flix-project"
     },
     {
         title: "Travel Circle",
         imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
         deployedLink: "https://sheltered-hollows-60202-cd3cd4a2a48a.herokuapp.com/",
-        githubLink: ""
+        githubLink: "https://github.com/MKYRENE/travel_circle_app"
     },
     {
-        title: "Project ",
+        title: "Good Vibes Feed",
         imageSource: "/assets/images/screenshots/screenshot_1GoodVibesFeed.png",
-        deployedLink: "",
-        githubLink: ""
+        deployedLink: "https://good-vibes-feed-0f727cb91a84.herokuapp.com/",
+        githubLink: "https://github.com/mcgrane18482/good_vibes_feed"
     },
     {
         title: "Project ",
