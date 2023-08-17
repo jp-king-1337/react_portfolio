@@ -11,9 +11,6 @@ html,
 body,
 #root {
     height: 100%;
-}
-
-body {
     margin: 0;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,10 +28,7 @@ code {
 .app-container {
     display: flex;
     flex-direction: column;
-    /* Scroll bar, but maybe that's okay */
     min-height: 100vh;
-    /* Right on the bottom, no scroll */
-    /* min-height: 78.15vh; */
     padding: 10px 5%;
 }
 
@@ -76,12 +70,12 @@ code {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: var(--aliceBlue);
 }
 
 /* Header Styles */
 header {
-    background: #301934;
+    background: var(--thistle);
     padding: 5px 3%;
     margin-bottom: 20px;
 }
@@ -90,7 +84,7 @@ header a h2,
 header a h2:visited,
 header nav a,
 header nav a:visited {
-    color: #fff;
+    color: var(--aliceBlue);
     text-decoration: none;
 }
 
@@ -104,7 +98,7 @@ header nav a.active {
 
 /* Footer Styles */
 footer {
-    background: #301934;
+    background: var(--thistle);
     padding: 5px 5%;
     margin-top: auto;
 }
@@ -117,7 +111,7 @@ footer {
 }
 
 .footer-links a {
-    color: #fff;
+    color: var(--aliceBlue);
     text-decoration: none;
     margin-left: 15px;
 }
@@ -131,7 +125,7 @@ footer {
 }
 
 .footer-copyright {
-    color: #fff;
+    color: var(--aliceBlue);
 }
 
 /* About Page Styles */
@@ -163,7 +157,7 @@ footer {
 .contact-form {
     text-align: center;
     width: 400px;
-    background: violet;
+    background: var(--rosyBrown);
     margin: 10px auto 0;
     padding: 20px;
     border: 1px solid #ccc;
@@ -195,8 +189,8 @@ footer {
 }
 
 button[type="submit"] {
-    background-color: #301934;
-    color: white;
+    background-color: var(--thistle);
+    color: var(--aliceBlue);
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
@@ -205,7 +199,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #51284f;
+    background-color: var(--resedaGreen);
 }
 
 .error-message {
@@ -224,8 +218,8 @@ button[type="submit"]:hover {
 }
 
 .project-card {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: var(--aliceBlue);
+    border: 1px solid var(--thistle);
     border-radius: 5px;
     box-shadow: 0 2px 4px #0000001a;
     padding: 20px;
@@ -274,11 +268,11 @@ button[type="submit"]:hover {
 
 .deployed-link,
 .github-link {
-    background: #f1f1f1;
+    background: var(--thistle);
     border-radius: 3px;
-    color: #301934;
+    color: var(--aliceBlue);
     text-decoration: none;
-    padding: 4px
+    padding: 4px;
 }
 
 .deployed-link:hover,
@@ -293,8 +287,6 @@ button[type="submit"]:hover {
 .github-link {
     text-align: right;
 }
-
-
 
 /* Media Queries */
 @media (max-width: 1024px) {
