@@ -209,9 +209,9 @@ button[type="submit"]:hover {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* columns: 2;
-    grid-auto-rows: auto; */
+    justify-content: center;
+    justify-content: space-around;
+    margin: -20px;
 }
 
 .project-card {
@@ -220,18 +220,17 @@ button[type="submit"]:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px #0000001a;
     padding: 20px;
-    margin: 20px;
     text-align: center;
     flex: 1;
-    max-width: calc(33.33% - 40px);
-    min-width: 300px;
-    width: 100%;
     box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    margin: 20px;
+    max-width: calc(33.33% - 40px);
+    min-width: 300px;
 }
 
 .project-title {
@@ -289,14 +288,20 @@ button[type="submit"]:hover {
 
 
 /* Media Queries */
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .project-card {
         max-width: calc(50% - 40px);
     }
-} */
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        max-width: calc(50% - 40px);
+    }
+}
 
 @media (max-width: 500px) {
     .project-card {
-        max-width: 100%;
+        max-width: calc(100% - 40px);
     }
 }
