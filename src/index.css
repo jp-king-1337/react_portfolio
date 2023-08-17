@@ -265,6 +265,8 @@ button[type="submit"]:hover {
     margin: 10px 0;
     text-align: center;
     padding: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .project-links {
