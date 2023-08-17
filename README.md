@@ -4,7 +4,7 @@
 ## Description
 This is my portfolio, built with React.
 
-[Deployed Link](https://jpking1337portfolio.netlify.app/portfolio)
+[Deployed Link](https://jpking1337portfolio.netlify.app/)
 
 
 ## Table of Contents
@@ -22,7 +22,7 @@ git clone git@github.com:jp-king-1337/react_portfolio.git
 ## Usage
 This project is to be graded as part of my participation in the Rutgers Coding Bootcamp, but more importantly, it demonstrates the things I've learned in the bootcamp, and beyond!
 
-Upon accessing the project at the [deployed link](https://jpking1337portfolio.netlify.app/portfolio), a user will be able to learn about me through the About Me section, or contact me through the form in - you guessed it - the Contact Me section. Creative names, right? Additionally, any visitor to the site can view a portfolio of my work, which will be updated periodically with additional examples, and download my resume if desired.
+Upon accessing the project at the [deployed link](https://jpking1337portfolio.netlify.app/), a user will be able to learn about me through the About Me section, or contact me through the form in - you guessed it - the Contact Me section. Creative names, right? Additionally, any visitor to the site can view a portfolio of my work, which will be updated periodically with additional examples, and download my resume if desired.
 
 
 ## Credits
