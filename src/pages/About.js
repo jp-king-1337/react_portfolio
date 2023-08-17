@@ -2,7 +2,7 @@ export default function About() {
     return (
         <>
             <div className="app-container">
-                <h1 className="text-center">Welcome!</h1>
+                <h2 className="text-center">Welcome!</h2>
 
                 <div className="about-content">
                     <div className="about-paragraphs">
