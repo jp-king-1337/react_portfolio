@@ -7,7 +7,7 @@ export const projectData = [
         githubLink: "https://github.com/jp-king-1337/professional_portfolio"
     },
     {
-        title: "WeatherFlix",
+        title: "Weather Flix",
         imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
         description: "Not sure what movie to watch? I developed this along with other students in my bootcamp to suggest movies based on the current weather in your area.",
         deployedLink: "https://thomasszentirmay.github.io/weather-flix-project/",

@@ -228,6 +228,10 @@ button[type="submit"]:hover {
     width: 100%;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .project-title {
@@ -238,23 +242,19 @@ button[type="submit"]:hover {
     max-width: 100%;
     height: auto;
     margin: 5px 0;
+    flex: 1;
+    object-fit: contain;
 }
 
 .project-description {
     margin: 10px 0;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100%;
     text-align: center;
+    padding: 10px;
 }
 
 .project-links {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
     text-align: center;
+    padding: 10px;
 }
 
 .project-links a {
