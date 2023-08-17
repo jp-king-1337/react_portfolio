@@ -68,7 +68,9 @@ export default function Contact() {
             <form className="contact-form" onSubmit={handleSubmit}>
                 {isFormSubmitted && (
                     <div className="success-message">
-                        Thank you for reaching out! I'll contact you soon!
+                        <h2>
+                            Thank you for reaching out! I'll contact you soon!
+                        </h2>
                     </div>)}
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
