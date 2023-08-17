@@ -7,7 +7,7 @@ export const projectData = [
         githubLink: "https://github.com/jp-king-1337/professional_portfolio"
     },
     {
-        title: "WeatherFlix",
+        title: "Weather Flix",
         imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
         description: "Not sure what movie to watch? I developed this along with other students in my bootcamp to suggest movies based on the current weather in your area.",
         deployedLink: "https://thomasszentirmay.github.io/weather-flix-project/",
@@ -15,7 +15,7 @@ export const projectData = [
     },
     {
         title: "Travel Circle",
-        imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
+        imageSource: "/assets/images/screenshots/screenshot_1TravelCircle.png",
         description: "Me and a small group of students made this website as a private travel journal where you can share your journeys with your friends and family.",
         deployedLink: "https://sheltered-hollows-60202-cd3cd4a2a48a.herokuapp.com/",
         githubLink: "https://github.com/MKYRENE/travel_circle_app"
@@ -29,14 +29,14 @@ export const projectData = [
     },
     {
         title: "Just Blog It!",
-        imageSource: "/assets/images/screenshots/",
+        imageSource: "/assets/images/screenshots/screenshot_1JustBlogIt.png",
         description: "I built this small blog site to hold a variety of tech-related articles. Maybe you can use it to share your coding journey with the world!",
         deployedLink: "https://jp-just-blog-it-ae6e976d19e8.herokuapp.com/",
         githubLink: "https://github.com/jp-king-1337/justBlogIt"
     },
     {
         title: "Text Edit - If You Dare!",
-        imageSource: "/assets/images/screenshots/",
+        imageSource: "/assets/images/screenshots/screenshot_1TextEdit.png",
         description: "This is a refactor of some starter code provided to me in my coding bootcamp. My job was to implement PWA functionality!",
         deployedLink: "https://text-edit-if-you-dare-288bba82860c.herokuapp.com/",
         githubLink: "https://github.com/jp-king-1337/textEdit_ifYouDare"

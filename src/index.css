@@ -204,3 +204,104 @@ button[type="submit"]:hover {
     font-size: 12px;
     margin-top: 4px;
 }
+
+/* Portfolio Page Styles */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: -20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 20px;
+    max-width: calc(33.33% - 40px);
+    min-width: 300px;
+}
+
+.project-title {
+    margin-top: 0;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin: 5px 0;
+    flex: 1;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.project-description {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 30px;
+}
+
+.deployed-link,
+.github-link {
+    background: #f1f1f1;
+    border-radius: 3px;
+    color: #301934;
+    text-decoration: none;
+    padding: 4px
+}
+
+.deployed-link:hover,
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.deployed-link {
+    text-align: left;
+}
+
+.github-link {
+    text-align: right;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .project-card {
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 500px) {
+    .project-card {
+        max-width: calc(100% - 40px);
+    }
+}
