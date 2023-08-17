@@ -98,6 +98,10 @@ header nav a:not(:last-child) {
     margin: 0 15px 0 0;
 }
 
+header nav a:hover {
+    color: #eeefff;
+}
+
 header nav a.active {
     text-decoration: underline;
     color: #fff;
@@ -127,8 +131,8 @@ footer {
     margin-right: 0;
 }
 
-.footer-links a.active {
-    text-decoration: underline;
+.footer-links a:hover {
+    color: #fff;
 }
 
 .footer-copyright {
@@ -227,7 +231,7 @@ button[type="submit"]:hover {
 
 .project-card {
     background: var(--aliceBlue);
-    border: 1px solid --thistle;
+    border: 1px solid var(--resedaGreen);
     border-radius: 5px;
     box-shadow: 0 2px 4px #0000001a;
     padding: 20px;
@@ -268,25 +272,27 @@ button[type="submit"]:hover {
     justify-content: space-between;
     align-items: center;
     position: absolute;
+    margin-top: 5px;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 10px 30px;
-    background-color: var(--thistle);
+    background-color: var(--resedaGreen);
 }
 
 .deployed-link,
 .github-link {
-    background: #f1f1f1;
+    background: var(--hookersGreen);
     border-radius: 3px;
-    color: #301934;
+    color: var(--aliceBlue);
     text-decoration: none;
-    padding: 4px
+    padding: 8px
 }
 
 .deployed-link:hover,
 .github-link:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: #fff;
 }
 
 .deployed-link {
