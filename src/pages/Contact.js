@@ -47,11 +47,11 @@ export default function Contact() {
                         email: "",
                         message: ""
                     });
+                    e.target.reset();
 
                     setTimeout(() => {
-                        e.target.reset();
                         setIsFormSubmitted(false);
-                    }, 3000);
+                    }, 5000);
                 } else {
                     console.error("Form submission failed");
                 }
