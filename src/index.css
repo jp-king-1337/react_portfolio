@@ -244,6 +244,7 @@ button[type="submit"]:hover {
     margin: 5px 0;
     flex: 1;
     object-fit: contain;
+    border-radius: 5px;
 }
 
 .project-description {
@@ -253,19 +254,36 @@ button[type="submit"]:hover {
 }
 
 .project-links {
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 30px;
 }
 
-.project-links a {
-    display: inline-block;
-    margin-right: 10px;
+.deployed-link,
+.github-link {
+    background: #f1f1f1;
+    border-radius: 3px;
     color: #301934;
     text-decoration: none;
+    padding: 4px
 }
 
-.project-links a:hover {
+.deployed-link:hover,
+.github-link:hover {
     text-decoration: underline;
+}
+
+.deployed-link {
+    text-align: left;
+}
+
+.github-link {
+    text-align: right;
 }
 
 
