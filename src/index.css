@@ -227,6 +227,7 @@ button[type="submit"]:hover {
     min-width: 300px;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .project-title {
@@ -241,11 +242,23 @@ button[type="submit"]:hover {
 
 .project-description {
     margin: 10px 0;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.project-links {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .project-links a {
     display: inline-block;
-    /* justify-content: space-between; */
     margin-right: 10px;
     color: #301934;
     text-decoration: none;
