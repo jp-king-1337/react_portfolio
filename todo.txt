@@ -4,8 +4,5 @@ GIVEN a single-page application portfolio for a web developer
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
