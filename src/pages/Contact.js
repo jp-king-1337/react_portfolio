@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-
 export default function Contact() {
     const [errorMessage, setErrorMessage] = useState({
         name: "",
         email: "",
         message: ""
     });
+
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
     const handleBlur = (e) => {
         const fieldName = e.target.name;
@@ -39,7 +39,12 @@ export default function Contact() {
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    console.log("Form submitted successfully");
+                    setIsFormSubmitted(true);
+                    setErrorMessage({
+                        name: "",
+                        email: "",
+                        message: ""
+                    });
                 } else {
                     console.error("Form submission failed");
                 }
@@ -53,7 +58,12 @@ export default function Contact() {
         <div className="app-container">
             <h2 className="text-center">Contact Me</h2>
 
-            <form className="contact-form" onSubmit={handleSubmit}>
+            {isFormSubmitted ? (
+                <div className="success-message">
+                    Thank you for reaching out! I'll contact you soon!
+                </div>
+            ) : (
+                <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input
