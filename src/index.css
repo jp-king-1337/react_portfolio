@@ -266,9 +266,9 @@ button[type="submit"]:hover {
     text-align: center;
     padding: 10px;
     position: absolute;
-    bottom: calc(100% + 5px);
+    /* bottom: calc(100% + 5px);
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 .project-links {
