@@ -225,6 +225,7 @@ button[type="submit"]:hover {
     flex: 1;
     max-width: calc(33.33% - 40px);
     min-width: 300px;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -257,11 +258,11 @@ button[type="submit"]:hover {
 
 
 /* Media Queries */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .project-card {
         max-width: calc(50% - 40px);
     }
-}
+} */
 
 @media (max-width: 500px) {
     .project-card {
