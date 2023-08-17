@@ -86,8 +86,8 @@ header {
     margin-bottom: 20px;
 }
 
-header a h2,
-header a h2:visited,
+#nameLink,
+#nameLink:active,
 header nav a,
 header nav a:visited {
     color: var(--aliceBlue);
