@@ -211,7 +211,7 @@ button[type="submit"]:hover {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    margin: -20px;
+    margin: 20px 10px;
 }
 
 .project-card {
