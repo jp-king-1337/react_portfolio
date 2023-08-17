@@ -250,3 +250,18 @@ button[type="submit"]:hover {
 .project-links a:hover {
     text-decoration: underline;
 }
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .project-card {
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 500px) {
+    .project-card {
+        max-width: 100%;
+    }
+}
