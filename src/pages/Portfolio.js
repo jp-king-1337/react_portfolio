@@ -8,10 +8,12 @@ export default function Portfolio() {
                 <h1 className="text-center">This is a portfolio page.</h1>
                 <div className="project-list">
                     {projectData.map(project => {
-                        title={project.title},
-                        imageSource={project.imageSource},
-                        deployedLink={project.deployedLink},
-                        githubLink={project.githubLink}
+                        <Project
+                            title={project.title}
+                            imageSource = { project.imageSource }
+                            deployedLink = { project.deployedLink }
+                            githubLink = { project.githubLink }
+                            />
                     })}
                 </div>
             </div>
