@@ -7,25 +7,18 @@ export const projectData = [
         githubLink: "https://github.com/jp-king-1337/professional_portfolio"
     },
     {
-        title: "Weather Flix",
-        imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
-        description: "Not sure what movie to watch? I developed this along with other students in my bootcamp to suggest movies based on the current weather in your area.",
-        deployedLink: "https://jp-king-1337.github.io/weather-flix-project/",
-        githubLink: "https://github.com/jp-king-1337/weather-flix-project"
-    },
-    {
-        title: "Travel Circle",
-        imageSource: "/assets/images/screenshots/screenshot_1TravelCircle.png",
-        description: "Me and a small group of students made this website as a private travel journal where you can share your journeys with your friends and family.",
-        deployedLink: "https://sheltered-hollows-60202-cd3cd4a2a48a.herokuapp.com/",
-        githubLink: "https://github.com/jp-king-1337/travel_circle_app"
-    },
-    {
         title: "Good Vibes Feed",
         imageSource: "/assets/images/screenshots/screenshot_1GoodVibesFeed.png",
         description: "Tired of all the doom and gloom? The Good Vibes Feed was developed by myself and four other students to bring you a small news feed consisting of only good news!",
         deployedLink: "https://good-vibes-feed-0f727cb91a84.herokuapp.com/",
         githubLink: "https://github.com/jp-king-1337/good_vibes_feed"
+    },
+    {
+        title: "Weather Flix",
+        imageSource: "/assets/images/screenshots/screenshot_1WeatherFlix.png",
+        description: "Not sure what movie to watch? I developed this along with other students in my bootcamp to suggest movies based on the current weather in your area.",
+        deployedLink: "https://jp-king-1337.github.io/weather-flix-project/",
+        githubLink: "https://github.com/jp-king-1337/weather-flix-project"
     },
     {
         title: "Just Blog It!",
@@ -40,5 +33,12 @@ export const projectData = [
         description: "Got some text to edit? This is a refactor of some starter code provided to me in my coding bootcamp. My job was to implement PWA functionality!",
         deployedLink: "https://text-edit-if-you-dare-288bba82860c.herokuapp.com/",
         githubLink: "https://github.com/jp-king-1337/textEdit_ifYouDare"
+    },
+    {
+        title: "Travel Circle",
+        imageSource: "/assets/images/screenshots/screenshot_1TravelCircle.png",
+        description: "Me and a small group of students made this website as a private travel journal where you can share your journeys with your friends and family.",
+        deployedLink: "https://sheltered-hollows-60202-cd3cd4a2a48a.herokuapp.com/",
+        githubLink: "https://github.com/jp-king-1337/travel_circle_app"
     }
 ]
