@@ -15,7 +15,20 @@ export default function About() {
                     </div>
                 </div>
 
-
+                <div className="skills-container">
+                    <h2>Skills</h2>
+                    <img src="html5_logo_url" alt="HTML5 Logo"></img>
+                    <img src="css3_logo_url" alt="CSS3 Logo"></img>
+                    <img src="javascript_es6_logo_url" alt="JavaScript ES6 Logo"></img>
+                    <img src="react_logo_url" alt="React Logo"></img>
+                    <img src="express_logo_url" alt="Express Logo"></img>
+                    <img src="rest_api_logo_url" alt="REST API Logo"></img>
+                    <img src="mongodb_logo_url" alt="MongoDB Logo"></img>
+                    <img src="authentication_logo_url" alt="Authentication Logo"></img>
+                    <img src="github_logo_url" alt="GitHub Logo"></img>
+                    <img src="git_logo_url" alt="Git Logo"></img>
+                    <img src="terminal_logo_url" alt="Terminal Logo"></img>
+                </div>
             </div>
         </>
     );
