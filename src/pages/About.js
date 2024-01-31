@@ -15,7 +15,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="skills-container">
+                {/* <div className="skills-container">
                     <h2>Skills</h2>
                     <img src="html5_logo_url" alt="HTML5 Logo"></img>
                     <img src="css3_logo_url" alt="CSS3 Logo"></img>
@@ -28,7 +28,7 @@ export default function About() {
                     <img src="github_logo_url" alt="GitHub Logo"></img>
                     <img src="git_logo_url" alt="Git Logo"></img>
                     <img src="terminal_logo_url" alt="Terminal Logo"></img>
-                </div>
+                </div> */}
             </div>
         </>
     );
