@@ -12,9 +12,9 @@ export default function Navigation({ isNavOpen, toggleNav }) {
             <NavLink to="/portfolio" onClick={toggleNav}>
                 Portfolio
             </NavLink>
-            <NavLink to="/resume" onClick={toggleNav}>
+            {/* <NavLink to="/resume" onClick={toggleNav}>
                 Resume
-            </NavLink>
+            </NavLink> */}
         </nav>
     );
 }
