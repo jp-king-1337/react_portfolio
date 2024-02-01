@@ -152,14 +152,6 @@ footer {
     text-align: center;
 }
 
-.right-section {
-    flex: 2;
-}
-
-#welcome {
-    text-align: left;
-}
-
 .headshot-wrapper {
     flex: 1;
     text-align: center;
@@ -170,6 +162,24 @@ footer {
     max-width: 200px;
     height: auto;
     border-radius: 5px;
+}
+
+.right-section {
+    flex: 2;
+}
+
+#welcome {
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
 }
 
 .skills-container {
