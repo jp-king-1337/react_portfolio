@@ -1,15 +1,20 @@
 import { NavLink } from "react-router-dom";
 
-export default function Navigation() {
+export default function Navigation({ isNavOpen, toggleNav }) {
     return (
-        <>
-            <nav className="row">
-                <NavLink to="/">About Me</NavLink>
-                {/* <NavLink to="/about">About Me</NavLink> */}
-                <NavLink to="/contact">Contact Me</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
-                <NavLink to="/resume">Resume</NavLink>
-            </nav>
-        </>
-    )
+        <nav className={`row ${isNavOpen ? 'nav-open' : 'nav-closed'}`}>
+            <NavLink to="/" onClick={toggleNav}>
+                About Me
+            </NavLink>
+            <NavLink to="/contact" onClick={toggleNav}>
+                Contact Me
+            </NavLink>
+            <NavLink to="/portfolio" onClick={toggleNav}>
+                Portfolio
+            </NavLink>
+            <NavLink to="/resume" onClick={toggleNav}>
+                Resume
+            </NavLink>
+        </nav>
+    );
 }

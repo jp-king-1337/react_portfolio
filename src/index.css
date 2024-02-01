@@ -333,9 +333,78 @@ button[type="submit"]:hover {
     text-align: right;
 }
 
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
 
+    div {
+        width: 30px;
+        height: 3px;
+        background-color: var(--aliceBlue);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    flex-direction: row;
+
+    a {
+        margin: 0 15px 0 0;
+        color: var(--aliceBlue);
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #eeefff;
+    }
+
+    a.active {
+        text-decoration: underline;
+        color: #fff;
+    }
+}
 
 /* Media Queries */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: var(--hookersGreen);
+        z-index: 1;
+    }
+
+    .nav-closed {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-link {
+        margin: 5px;
+    }
+}
 
 /* Mobile Styling for About Section */
 @media (max-width: 768px) {
