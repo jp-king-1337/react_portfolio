@@ -17,6 +17,7 @@ export default function About() {
 
                 <div className="skills-container">
                     <h2>Skills</h2>
+                    {/* Logos sourced from https://github.com/devicons/devicon/tree/v2.15.1 */}
                     <img class="skill-logo" src="/assets/images/logos/html5.svg" alt="HTML5 icon"></img>
                     <img class="skill-logo" src="/assets/images/logos/css3.svg" alt="CSS3 icon"></img>
                     <img class="skill-logo" src="/assets/images/logos/express.svg" alt="Express icon"></img>
