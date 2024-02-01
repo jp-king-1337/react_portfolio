@@ -15,23 +15,23 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="skills-container">
-                    <h2>Skills</h2>
-                    {/* Logos sourced from devicon.dev */}
-                    <img class="skill-logo" src="/assets/images/logos/html5.svg" alt="HTML5 icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/css3.svg" alt="CSS3 icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/express.svg" alt="Express icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/git.svg" alt="Git icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/github.svg" alt="GitHub icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/javascript.svg" alt="JavaScript icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/mongodb-plain.svg" alt="MongoDB icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/react.svg" alt="React icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/sequelize.svg" alt="Sequelize icon"></img>
-                    <img class="skill-logo" src="/assets/images/logos/vscode.svg" alt="VSCode icon"></img>
-
-
-
+                <div>
+                    <h2 className="text-center">Skills</h2>
+                    <div className="skills-container">
+                        {/* Logos sourced from devicon.dev */}
+                        <img class="skill-logo" src="/assets/images/logos/html5.svg" alt="HTML5 icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/css3.svg" alt="CSS3 icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/express.svg" alt="Express icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/git.svg" alt="Git icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/github.svg" alt="GitHub icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/javascript.svg" alt="JavaScript icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/mongodb-plain.svg" alt="MongoDB icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/react.svg" alt="React icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/sequelize.svg" alt="Sequelize icon"></img>
+                        <img class="skill-logo" src="/assets/images/logos/vscode.svg" alt="VSCode icon"></img>
+                    </div>
                 </div>
+
             </div>
         </>
     );
