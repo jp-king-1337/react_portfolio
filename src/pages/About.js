@@ -5,7 +5,7 @@ export default function About() {
                 <div className="about-content">
                     <div className="left-section">
                         <div className="headshot-wrapper">
-                            <img id="headshot" src="/assets/images/headshot.JPG" alt="J.P. King standing in front of a waterfall" />
+                            <img id="headshot" src="/assets/images/headshot-zoomed.JPG" alt="J.P. King standing in front of a waterfall" />
                         </div>
                     </div>
 
