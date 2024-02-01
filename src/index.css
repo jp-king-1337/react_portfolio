@@ -362,7 +362,6 @@ nav {
     flex-direction: row;
 
     a {
-        margin: 0 15px 0 0;
         color: var(--aliceBlue);
         text-decoration: none;
         transition: color 0.3s;
@@ -411,8 +410,18 @@ nav {
         width: 100%;
     }
 
-    .nav-link {
-        margin: 5px;
+    header nav a,
+    header nav a:not(:last-child) {
+        color: var(--aliceBlue);
+        text-decoration: none;
+        margin: 5px 0 5px 0;
+    }
+
+
+    header nav a:last-child {
+        color: var(--aliceBlue);
+        text-decoration: none;
+        margin: 5px 0 15px 0;
     }
 }
 
