@@ -19,6 +19,7 @@ export default function About() {
                     <h2>Skills</h2>
                     <i className="devicons devicons-html5">test</i>
                     <span class="devicons devicons-html5"></span>
+                    <h1 class="devicons devicons-html5"></h1>
                     <img src="html5_logo_url" alt="HTML5 Logo"></img>
                     <img src="css3_logo_url" alt="CSS3 Logo"></img>
                     <img src="javascript_es6_logo_url" alt="JavaScript ES6 Logo"></img>
