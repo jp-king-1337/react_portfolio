@@ -164,6 +164,13 @@ footer {
     border-radius: 50%;
 }
 
+.skill-logo {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 100px;
+}
+
 /* Contact Page Styles */
 .contact-form {
     text-align: center;
