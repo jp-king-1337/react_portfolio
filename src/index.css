@@ -161,6 +161,7 @@ footer {
 
 .right-section {
     flex: 2;
+    padding: 3%;
 }
 
 #welcome {
@@ -335,6 +336,34 @@ button[type="submit"]:hover {
 
 
 /* Media Queries */
+
+/* Mobile Styling for About Section */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section,
+    .headshot-wrapper {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    #headshot {
+        max-width: 300px;
+        border-radius: 20px;
+    }
+}
+
+/* Mobile Styling for Skills Section */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Styling for Portfolio Section */
 @media (max-width: 1024px) {
     .project-card {
         max-width: calc(50% - 40px);
