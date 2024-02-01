@@ -335,7 +335,6 @@ button[type="submit"]:hover {
 
 /* Hamburger Menu Styles */
 .hamburger {
-    display: none;
     flex-direction: column;
     cursor: pointer;
     background: none;
@@ -350,6 +349,11 @@ button[type="submit"]:hover {
         margin: 6px 0;
         transition: 0.4s;
     }
+}
+
+.hamburger img {
+    width: 30px;
+    height: auto;
 }
 
 /* Navigation Styles */
@@ -375,6 +379,12 @@ nav {
 }
 
 /* Media Queries */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;

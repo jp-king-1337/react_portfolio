@@ -17,9 +17,7 @@ export default function Header() {
 
             {/* Hamburger */}
             <button className="hamburger" onClick={toggleNav}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
+                <img src="/assets/images/logos/hamburger.svg" alt="hamburger menu" />
             </button>
 
             {/* Navigation */}
