@@ -335,6 +335,12 @@ button[type="submit"]:hover {
 
 
 /* Media Queries */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 1024px) {
     .project-card {
         max-width: calc(50% - 40px);
