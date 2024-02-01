@@ -9,7 +9,7 @@ export default function Footer() {
                 <li>
 
                     <a href="mailto:jp.king.1337@gmail.com" className="contact_links">
-                        <i class="fa-solid fa-envelope"></i>
+                        <img src="/assets/images/logos/envelope.svg" />
                     </a>
                 </li>
                 <li>
@@ -24,7 +24,7 @@ export default function Footer() {
                 </li>
                 <li>
                     <a href="https://stackoverflow.com/users/22401476/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">
-                        <i class="fa-brands fa-stack-overflow"></i>
+                        <img src="/assets/images/logos/stack-overflow.svg" />
                     </a>
                 </li>
             </ul>
