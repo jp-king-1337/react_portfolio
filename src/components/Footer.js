@@ -7,16 +7,25 @@ export default function Footer() {
         <footer className="row justify-between align-center">
             <ul className="row justify-between align-center footer-links">
                 <li>
-                    <a href="mailto:jp.king.1337@gmail.com" className="contact_links">Email</a>
+
+                    <a href="mailto:jp.king.1337@gmail.com" className="contact_links">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://github.com/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://github.com/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                    </a>
                 </li>
                 <li>
-                    <a href="https://stackoverflow.com/users/22401476/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">Stack Overflow</a>
+                    <a href="https://stackoverflow.com/users/22401476/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">
+                        <i class="fa-brands fa-stack-overflow"></i>
+                    </a>
                 </li>
             </ul>
             <p className="footer-copyright">&copy; {startYear} {currentYear > startYear ? `- ${currentYear}` : ""} Developed and Designed by J.P. King</p>

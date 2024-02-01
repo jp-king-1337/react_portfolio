@@ -122,7 +122,7 @@ footer {
 }
 
 .footer-links a {
-    color: var(--aliceBlue);
+    color: black;
     text-decoration: none;
     margin-left: 15px;
 }
