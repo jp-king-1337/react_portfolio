@@ -7,7 +7,6 @@ export default function Footer() {
         <footer className="row justify-between align-center">
             <ul className="row justify-between align-center footer-links">
                 <li>
-
                     <a href="mailto:jp.king.1337@gmail.com" className="contact_links">
                         <img src="/assets/images/logos/envelope.svg" />
                     </a>
