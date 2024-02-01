@@ -6,7 +6,7 @@ This is my portfolio, built with React.
 
 [Deployed Link](https://jpking1337portfolio.netlify.app/)
 
-![Screenshot of the home page of my portfolio](public/assets/images/screenshots/portfolio_screenshot.png)
+![Screenshot of the home page of my portfolio](public/assets/images/screenshots/portfolio-screenshot.png)
 
 
 ## Table of Contents
