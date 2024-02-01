@@ -8,22 +8,22 @@ export default function Footer() {
             <ul className="row justify-between align-center footer-links">
                 <li>
                     <a href="mailto:jp.king.1337@gmail.com" className="contact_links">
-                        <img src="/assets/images/logos/envelope.svg" />
+                        <img src="/assets/images/logos/envelope.svg" alt="envelope" />
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/jpking1337/" target="_blank" className="contact_links" rel="noopener noreferrer">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="LinkedIn logo" />
                     </a>
                 </li>
                 <li>
                     <a href="https://stackoverflow.com/users/22401476/jp-king-1337" target="_blank" className="contact_links" rel="noopener noreferrer">
-                        <img src="/assets/images/logos/stack-overflow.svg" />
+                        <img src="/assets/images/logos/stack-overflow.svg" alt="stackoverflow logo" />
                     </a>
                 </li>
             </ul>
